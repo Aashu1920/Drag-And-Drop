@@ -1,0 +1,35 @@
+body
+{
+    background-color: darkslateblue;
+}
+.imgBox
+{
+    background-image: url('pizza.jpg');
+    position: relative;
+    height: 155px;
+    width : 155px;
+    cursor: pointer;
+}
+
+.whiteBox
+{
+    display:inline-block;
+    height: 155px;
+    width: 155px;
+    margin:10px ;
+    background-color: white;
+    border : 2px solid black;
+}
+.hold
+{
+    border: 2px solid red;
+}
+.hide
+{
+    display : none;
+}
+.dashed
+{
+    background: brown;
+    border-style: dashed;
+}
